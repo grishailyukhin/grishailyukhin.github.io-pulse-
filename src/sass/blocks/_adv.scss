@@ -2,32 +2,56 @@
     min-height: 473px;
     padding: 73px 0 82px 0;
     background-color: #f6f6f6;
-&__wrapper {
-    margin-top: 65px;
-    display: flex;
-    justify-content: space-between;
-}
-&__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 238px;
-}
-&__subtitle {
-    margin-top: 30px;
-    font-size: 18px;
-    font-weight: 700;
-    color: #0d0d0d;
-}
-&__descr {
-    margin-top: 20px;
-    font-size: 14px;
-    font-weight: 300;
-    color: #0d0d0d;
-    text-align: center;
-}
-a {
-    color: $main-color;
-    text-decoration: underline;
-}
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
+    }
+    &__subtitle {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__descr {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+        text-align: center;
+    }
+    a {
+        color: $main-color;
+        text-decoration: underline;
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+    &__icon-cup {
+        &_animated {
+            animation-name: swing;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+    &__icon-run {
+        &_animated {
+            animation-name: bounce;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
 }

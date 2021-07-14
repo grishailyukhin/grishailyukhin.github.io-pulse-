@@ -1,1 +1,90 @@
-@media (max-width:768px)
+@media (max-width:768px) {
+    .header {
+        width: 110%;
+        &__logo {
+            width: 210px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .title_left {
+        font-size: 30px;
+        text-align: center;
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+            font-size: 17px;
+            line-height: 28px;
+        }
+    }
+    .feed-form {
+        position: absolute;
+        left: 32%;
+    }
+    .carousel {
+        &__inner {
+            width: 640px;
+        }
+    }
+    .slick-slide {
+        img {
+            width: 650px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 200px;
+            height: 45px;
+            font-size: 15px;
+        }
+    }
+    .catalog-item {
+        width: 250px;
+        &__price {
+            font-size: 14px;
+        }
+        &__old-price {
+            font-size: 11px;
+        }
+    }
+    .button_mini {
+        width: 111px;
+        height: 40px;
+    }
+    .feedback {
+        img {
+            height: 130px;
+        }
+        &__name {
+            font-size: 15px;
+        }
+        &__marathon {
+            font-size: 11px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 425px;
+            height: 245px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+}
+@media (max-width:570px) {
+    .header {
+        width: 110%;
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}
